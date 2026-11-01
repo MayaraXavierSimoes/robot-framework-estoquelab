@@ -1,0 +1,13 @@
+{"level":"info","time":"2026-10-30T01:47:15.351Z","seq":1,"component":"browser-library","msg":"Listening on 127.0.0.1:62834"}
+{"level":"info","time":"2026-10-30T01:47:15.763Z","seq":2,"component":"browser-library","event_kind":"grpc","action":"newBrowser","status":"started"}
+{"level":"info","time":"2026-10-30T01:47:15.979Z","seq":3,"component":"browser-library","msg":"Adding browser to stack: chromium, version: 153.0.8010.12"}
+{"level":"info","time":"2026-10-30T01:47:15.980Z","seq":4,"component":"browser-library","msg":"Adding 0 contexts to browser"}
+{"level":"info","time":"2026-10-30T01:47:15.980Z","seq":5,"component":"browser-library","event_kind":"grpc","action":"newBrowser","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:47:15.993Z","seq":6,"component":"browser-library","event_kind":"grpc","action":"newPage","status":"started"}
+{"level":"info","time":"2026-10-30T01:47:15.993Z","seq":7,"component":"browser-library","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@2b5c74f8bb99797f862c481c3d0768dd\"},\"name\":\"chromium\",\"id\":\"browser=3507d13f-71ac-4592-9cc1-12b18d632b06\",\"headless\":false}"}
+{"level":"info","time":"2026-10-30T01:47:16.009Z","seq":8,"component":"browser-library","msg":"Setting default timeout for context context=0c75f090-e5f7-4b57-a10a-e055810a9aee to 10000"}
+{"level":"info","time":"2026-10-30T01:47:16.010Z","seq":9,"component":"browser-library","msg":"Changed active context: context=0c75f090-e5f7-4b57-a10a-e055810a9aee"}
+{"level":"info","time":"2026-10-30T01:47:16.250Z","seq":10,"component":"browser-library","msg":"Video path: undefined"}
+{"level":"info","time":"2026-10-30T01:47:16.250Z","seq":11,"component":"browser-library","msg":"Changed active page"}
+{"level":"info","time":"2026-10-30T01:47:16.559Z","seq":12,"component":"browser-library","event_kind":"grpc","action":"newPage","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:47:18.814Z","seq":13,"component":"browser-library","msg":"Removed page=ceec27f0-e1d8-467d-8c77-ec971ff1e6d8 from context=0c75f090-e5f7-4b57-a10a-e055810a9aee page stack"}

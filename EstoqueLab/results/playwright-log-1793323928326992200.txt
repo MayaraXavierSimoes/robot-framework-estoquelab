@@ -1,0 +1,225 @@
+{"level":"info","time":"2026-10-30T01:32:09.359Z","seq":1,"component":"browser-library","msg":"Listening on 127.0.0.1:62314"}
+{"level":"info","time":"2026-10-30T01:32:09.520Z","seq":2,"component":"browser-library","event_kind":"grpc","action":"newBrowser","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:09.758Z","seq":3,"component":"browser-library","msg":"Adding browser to stack: chromium, version: 153.0.8010.12"}
+{"level":"info","time":"2026-10-30T01:32:09.779Z","seq":4,"component":"browser-library","msg":"Adding 0 contexts to browser"}
+{"level":"info","time":"2026-10-30T01:32:09.779Z","seq":5,"component":"browser-library","event_kind":"grpc","action":"newBrowser","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:09.800Z","seq":6,"component":"browser-library","event_kind":"grpc","action":"newPage","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:09.800Z","seq":7,"component":"browser-library","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@3d14f7ebf900eb10e2af968e6934405d\"},\"name\":\"chromium\",\"id\":\"browser=4c60bd2a-bd5b-4db9-95a1-b118c2ad5585\",\"headless\":false}"}
+{"level":"info","time":"2026-10-30T01:32:09.821Z","seq":8,"component":"browser-library","msg":"Setting default timeout for context context=5f612875-8d03-4dd5-9fd4-a81d96ff2446 to 10000"}
+{"level":"info","time":"2026-10-30T01:32:09.821Z","seq":9,"component":"browser-library","msg":"Changed active context: context=5f612875-8d03-4dd5-9fd4-a81d96ff2446"}
+{"level":"info","time":"2026-10-30T01:32:10.026Z","seq":10,"component":"browser-library","msg":"Video path: undefined"}
+{"level":"info","time":"2026-10-30T01:32:10.026Z","seq":11,"component":"browser-library","msg":"Changed active page"}
+{"level":"info","time":"2026-10-30T01:32:10.505Z","seq":12,"component":"browser-library","event_kind":"grpc","action":"newPage","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.510Z","seq":13,"component":"browser-library","event_kind":"grpc","action":"fillText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.510Z","seq":14,"component":"browser-library","msg":"Strict mode is enabled, find Locator with input[id=\"inpUsuarioLogin\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.557Z","seq":15,"component":"browser-library","event_kind":"grpc","action":"fillText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.562Z","seq":16,"component":"browser-library","event_kind":"grpc","action":"fillText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.562Z","seq":17,"component":"browser-library","msg":"Strict mode is enabled, find Locator with input[id=\"inpSenhaLogin\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.571Z","seq":18,"component":"browser-library","event_kind":"grpc","action":"fillText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.575Z","seq":19,"component":"browser-library","event_kind":"grpc","action":"click","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.576Z","seq":20,"component":"browser-library","msg":"Strict mode is enabled, find Locator with button[id=\"btnEntrar\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.667Z","seq":21,"component":"browser-library","event_kind":"grpc","action":"click","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.672Z","seq":22,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.672Z","seq":23,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.672Z","seq":24,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.672Z","seq":25,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.695Z","seq":26,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.699Z","seq":27,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.699Z","seq":28,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.712Z","seq":29,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.712Z","seq":30,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.712Z","seq":31,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.712Z","seq":32,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.719Z","seq":33,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.722Z","seq":34,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.722Z","seq":35,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.735Z","seq":36,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.735Z","seq":37,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.735Z","seq":38,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.735Z","seq":39,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.741Z","seq":40,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.743Z","seq":41,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.743Z","seq":42,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.756Z","seq":43,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.756Z","seq":44,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.756Z","seq":45,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.756Z","seq":46,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.761Z","seq":47,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.763Z","seq":48,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.764Z","seq":49,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.777Z","seq":50,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.777Z","seq":51,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.777Z","seq":52,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.777Z","seq":53,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.783Z","seq":54,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.785Z","seq":55,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.785Z","seq":56,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.798Z","seq":57,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.798Z","seq":58,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.798Z","seq":59,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.798Z","seq":60,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.805Z","seq":61,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.807Z","seq":62,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.807Z","seq":63,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.820Z","seq":64,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.821Z","seq":65,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.821Z","seq":66,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.821Z","seq":67,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.828Z","seq":68,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.830Z","seq":69,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.830Z","seq":70,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.842Z","seq":71,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.843Z","seq":72,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.843Z","seq":73,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.843Z","seq":74,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.849Z","seq":75,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.851Z","seq":76,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.851Z","seq":77,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.865Z","seq":78,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.865Z","seq":79,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.865Z","seq":80,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.865Z","seq":81,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.873Z","seq":82,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.876Z","seq":83,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.876Z","seq":84,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.889Z","seq":85,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.889Z","seq":86,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.889Z","seq":87,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.889Z","seq":88,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.895Z","seq":89,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.897Z","seq":90,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.897Z","seq":91,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.912Z","seq":92,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.912Z","seq":93,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.912Z","seq":94,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.912Z","seq":95,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.926Z","seq":96,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.932Z","seq":97,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.932Z","seq":98,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.947Z","seq":99,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.947Z","seq":100,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.947Z","seq":101,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.947Z","seq":102,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.962Z","seq":103,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:10.967Z","seq":104,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.967Z","seq":105,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:10.982Z","seq":106,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:10.982Z","seq":107,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:10.982Z","seq":108,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:10.982Z","seq":109,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:10.997Z","seq":110,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.001Z","seq":111,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.002Z","seq":112,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.016Z","seq":113,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.016Z","seq":114,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.017Z","seq":115,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.017Z","seq":116,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.031Z","seq":117,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.036Z","seq":118,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.036Z","seq":119,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.051Z","seq":120,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.052Z","seq":121,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.052Z","seq":122,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.052Z","seq":123,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.065Z","seq":124,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.068Z","seq":125,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.068Z","seq":126,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.082Z","seq":127,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.082Z","seq":128,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.082Z","seq":129,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.083Z","seq":130,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.091Z","seq":131,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.094Z","seq":132,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.094Z","seq":133,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.106Z","seq":134,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.106Z","seq":135,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.106Z","seq":136,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.106Z","seq":137,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.111Z","seq":138,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.113Z","seq":139,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.113Z","seq":140,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.129Z","seq":141,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.129Z","seq":142,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.129Z","seq":143,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.129Z","seq":144,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.145Z","seq":145,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.150Z","seq":146,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.150Z","seq":147,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.166Z","seq":148,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.166Z","seq":149,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.166Z","seq":150,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.166Z","seq":151,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.182Z","seq":152,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.187Z","seq":153,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.188Z","seq":154,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.202Z","seq":155,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.202Z","seq":156,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.202Z","seq":157,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.202Z","seq":158,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.210Z","seq":159,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.212Z","seq":160,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.212Z","seq":161,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.227Z","seq":162,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.227Z","seq":163,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.227Z","seq":164,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.227Z","seq":165,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.242Z","seq":166,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.246Z","seq":167,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.246Z","seq":168,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.262Z","seq":169,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.262Z","seq":170,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.262Z","seq":171,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.262Z","seq":172,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.276Z","seq":173,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.281Z","seq":174,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.281Z","seq":175,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.297Z","seq":176,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.297Z","seq":177,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.297Z","seq":178,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.297Z","seq":179,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.311Z","seq":180,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.315Z","seq":181,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.315Z","seq":182,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.328Z","seq":183,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.328Z","seq":184,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.328Z","seq":185,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.328Z","seq":186,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.338Z","seq":187,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.341Z","seq":188,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.341Z","seq":189,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.354Z","seq":190,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.354Z","seq":191,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.354Z","seq":192,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.354Z","seq":193,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.376Z","seq":194,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.378Z","seq":195,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.378Z","seq":196,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.390Z","seq":197,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.391Z","seq":198,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.391Z","seq":199,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.391Z","seq":200,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.395Z","seq":201,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.396Z","seq":202,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.396Z","seq":203,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.411Z","seq":204,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.411Z","seq":205,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.411Z","seq":206,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.411Z","seq":207,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.425Z","seq":208,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.428Z","seq":209,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.428Z","seq":210,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.443Z","seq":211,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.443Z","seq":212,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.443Z","seq":213,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.443Z","seq":214,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.458Z","seq":215,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.463Z","seq":216,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.463Z","seq":217,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:11.477Z","seq":218,"component":"browser-library","event_kind":"grpc","action":"getText","status":"started"}
+{"level":"info","time":"2026-10-30T01:32:11.477Z","seq":219,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div[id=\"areaToasts\"] in page."}
+{"level":"info","time":"2026-10-30T01:32:11.477Z","seq":220,"component":"browser-library","msg":"Getting text content with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.477Z","seq":221,"component":"browser-library","msg":"Getting text content without text type"}
+{"level":"info","time":"2026-10-30T01:32:11.514Z","seq":222,"component":"browser-library","msg":"Locator was not an <input> or <textarea> element, falling back to innerText."}
+{"level":"info","time":"2026-10-30T01:32:11.516Z","seq":223,"component":"browser-library","msg":"Retrieved text for element div[id=\"areaToasts\"] containing '[\"Login realizado com sucesso!\\n×\"]' with text type ROBOT_FRAMEWORK_BROWSER_NO_SET"}
+{"level":"info","time":"2026-10-30T01:32:11.516Z","seq":224,"component":"browser-library","event_kind":"grpc","action":"getText","status":"succeeded"}
+{"level":"info","time":"2026-10-30T01:32:16.375Z","seq":225,"component":"browser-library","msg":"Removed page=6bbc4255-af21-4965-8e91-4cee0dc9e0c0 from context=5f612875-8d03-4dd5-9fd4-a81d96ff2446 page stack"}
