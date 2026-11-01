@@ -1,6 +1,6 @@
 
 *** Settings ***
-Library    Browser    auto_closing_level=KEEP
+Library    Browser    auto_closing_level=KEEP    enable_playwright_debug=disabled
 Resource    ../variables/login.resource
 
 *** Keywords ***

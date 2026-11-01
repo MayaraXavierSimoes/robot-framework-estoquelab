@@ -8,7 +8,7 @@ A automação utiliza o Robot Framework para validar funcionalidades, regras de 
 
 ## Executar os testes
 
-Na raiz do projeto, execute todos os testes sem gerar os relatórios HTML/XML do Robot Framework:
+Na raiz do projeto, execute todos os testes sem gerar relatórios HTML/XML do Robot Framework ou logs de depuração do Playwright:
 
 ```bash
 python -m robot --output NONE --log NONE --report NONE tests
