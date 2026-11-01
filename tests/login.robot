@@ -6,3 +6,4 @@ Test Teardown    Finalizar teste
 
 *** Test Cases ***
 CT001 - Validar acesso ao sistema
+    Wait For Elements State    a[id="lnkFornecedores"]    visible
