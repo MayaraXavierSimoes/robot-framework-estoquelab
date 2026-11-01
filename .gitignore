@@ -1,0 +1,8 @@
+# Robot Framework output
+/output.xml
+/log.html
+/report.html
+/results/
+
+# Robot Framework Browser / Playwright logs
+/playwright-log*.txt
